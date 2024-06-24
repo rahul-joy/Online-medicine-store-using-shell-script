@@ -1,5 +1,16 @@
 #!/bin/bash
 
+
+#########################################################
+#                            				#
+# Coded by: rahul-joy     				#
+# Github: https://github.com/rahul-joy/pRoonm           #
+# Version: 1.0   			    		#
+# License: MIT						#
+#########################################################
+
+
+# Initial prompt
 echo "  Welcome to"
 echo "    /\\_/\\ "
 echo "   ( o.o )"
@@ -7,6 +18,12 @@ echo "    > ^ <"
 echo "    Meow!"
 echo "Medicine Store."
 echo " "
+cat <<'EOF'
+[+] Coded by rahul-joy [+]
+| Github: https://github.com/rahuljoy/Online-medicine-store-using-shell-script
+| License: MIT (You have to address my name in any redistributed copy)
+
+EOF
 
 # Add a user-specific order history file
 order_history_file="order_history.txt"
@@ -357,4 +374,3 @@ case $login_choice in
     exit
     ;;
 esac
-
